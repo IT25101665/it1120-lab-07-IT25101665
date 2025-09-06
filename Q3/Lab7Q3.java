@@ -15,12 +15,12 @@ public class Lab7Q3 {
             System.out.print("Enter mode of payment (C for cash, O for other): ");
             String paymentMode = input.nextLine().toUpperCase();
 
-            if (paymentMode.equals("C")) {
+            if (paymentMode = "C") {
                 double discount = billAmount * DISCOUNT_RATE;
                 double amountToPay = billAmount - discount;
                 System.out.println("Discount is: " + discount);
                 System.out.println("Amount to be paid: " + amountToPay);
-            } else if (paymentMode.equals("O")) {
+            } else if (paymentMode = "O") {
                 System.out.println("No discount applicable");
                 System.out.println("Amount to be paid: " + billAmount);
             } else {
